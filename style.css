@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap');
+body {
+    font-family: 'Figtree', sans-serif;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.tarjeta {
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 7%);
+    border-radius: 20px;
+    box-shadow: 8px 8px 0 hsl(0, 0%, 7%);
+    padding: 20px;
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.cabeza img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.est button {
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 15px;
+    font-weight: 800;
+    font-size: 14px;
+    color: hsl(0, 0%, 7%);
+}
+
+.publication-date p {
+    font-size: 14px;
+    color: hsl(0, 0%, 7%);
+    margin: 10px 0;
+}
+
+.title h3 {
+    font-size: 20px;
+    color: hsl(0, 0%, 7%);
+    margin: 10px 0;
+    font-weight: 800; /* Peso de la fuente */
+}
+
+.description p {
+    font-size: 16px;
+    color: hsl(0, 0%, 42%);
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.user img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user b {
+    font-size: 14px;
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+}
+
+@media (min-width: 1440px) {
+    .tarjeta {
+        max-width: 400px;
+    }
+}
